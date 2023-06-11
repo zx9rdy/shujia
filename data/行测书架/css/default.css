@@ -542,9 +542,9 @@ li{
 }
 
 .bookshelf{
-	float:left;
+	
 	margin-top:50px;
-	margin-left:30%;
+	margin-left:35%;
 	margin-right:30%;
 }
 
@@ -800,7 +800,8 @@ footer{
 	width:1000px;
 	height:700px;
 	display:none;
-	padding-left:110px;
+	margin-left:20%;
+	margin-right:20%;
 }
 
 .show-samples .samples{
