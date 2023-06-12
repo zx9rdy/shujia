@@ -542,10 +542,8 @@ li{
 }
 
 .bookshelf{
-	
-	margin-top:50px;
-	margin-left:35%;
-	margin-right:30%;
+	float:right;
+	margin-top:-40px;
 }
 
 .bookshelf .shelf{
@@ -565,7 +563,8 @@ li{
 
 .bookshelf .shelf .row-1:after,
 .bookshelf .shelf .row-2:after,
-.bookshelf .shelf .row-3:after{
+.bookshelf .shelf .row-3:after,
+.bookshelf .shelf .row-4:after{
 	background:url(../pics/wall-bookshelf.png);
 	background-size:100%;
 	background-repeat: no-repeat;
@@ -598,6 +597,19 @@ li{
 }
 
 .bookshelf .shelf .row-3:after{
+	height:216px;
+}
+
+
+.bookshelf .shelf .row-4{
+	position:relative;
+	margin-top:20px;
+	height:164px;
+	width:360px;
+	margin-left:33px;
+}
+
+.bookshelf .shelf .row-4:after{
 	height:216px;
 }
 
@@ -800,8 +812,6 @@ footer{
 	width:1000px;
 	height:700px;
 	display:none;
-	margin-left:20%;
-	margin-right:20%;
 }
 
 .show-samples .samples{
