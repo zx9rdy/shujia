@@ -10,9 +10,11 @@
   src: url('../fonts/Stempel-Garamond-W01-Roman.woff') format('woff');
 }
 
+
 body, ul, table, form{
 	margin:0;
 	padding:0;
+
 }
 
 /*  #Tablet (Portrait)
@@ -219,7 +221,7 @@ li{
 
 .splash{
 	width:100%;
-	height:700px;
+	height:1000px;
 	overflow:hidden;
 	position:relative;
 	background:url(../pics/splash-bg.jpg) bottom left repeat-x;
@@ -543,12 +545,15 @@ li{
 
 .bookshelf{
 	float:right;
-	margin-top:-40px;
+	margin-top:150px;
+	margin-left:70px;
+	
 }
 
 .bookshelf .shelf{
 	/*background:url(../pics/bookshelf.gif);
 	background-size:100%;*/
+	
 	width:426px;
 	height:440px;
 }
@@ -617,6 +622,7 @@ li{
 	position:absolute;
 	bottom:0;
 	width:100%;
+	
 }
 
 .bookshelf .shelf .loc > div{
